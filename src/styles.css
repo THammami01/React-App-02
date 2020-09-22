@@ -1,0 +1,26 @@
+body {
+	font-family: Roboto-Regular;
+	background-color: #252a34;
+	user-select: none;
+}
+
+.container {
+	margin: 1rem auto;
+	width: 80%;
+	color: #08d9d6;
+	border-radius: 1rem;
+	padding: 1rem;
+	box-shadow:
+		5px 5px 5px 5px #222831,
+		-5px -5px 5px 5px #222831;
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Pacifico-Regular;
+  src: url(./Pacifico/Pacifico-Regular.ttf);
+}

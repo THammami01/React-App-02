@@ -1,0 +1,35 @@
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 4rem;
+	background-color: #b83b5e33;
+	border-radius: 0 0 1rem 1rem;
+}
+
+.footer-line {
+	margin: 5rem 0 0;
+	background-color: #eaeaea;
+}
+
+.footer div span {
+	padding: 0.5rem;
+}
+
+.footer div span:hover {
+	cursor: pointer;
+	background-color: #252a34;
+	border-radius: 0.2rem;
+}
+
+@media all and (max-width: 880px) {
+	.footer {
+		flex-direction: column;
+		padding: 2rem;
+		text-align: center;
+	}
+
+	.footer div:first-child {
+		margin-bottom: 1rem;
+	}
+}

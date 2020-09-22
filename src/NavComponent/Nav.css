@@ -1,0 +1,99 @@
+.header {
+	position: fixed;
+	top: 0rem;
+	width: 80%;
+}	
+
+.empty-box {
+	margin: 5rem;
+}
+
+.navbar {
+	font-family: Roboto-Regular;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #252a34aa;
+	font-size: 1.2rem;
+	padding: 2rem 0;
+}
+
+.hamb {
+	display: none;
+}
+
+.navbar .main {
+	display: flex;
+	flex-direction: row;
+}
+
+.navbar .main div {
+	margin: 0 0.1rem;
+	padding: 0.5rem 2rem;
+	border-bottom: 1px solid #252a34;
+	transition: border-bottom 300ms;
+	background-color: #eaeaea11;
+	border-bottom-color: #eaeaea11;
+	border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.navbar .auth span {
+	border: 1px solid #00adb5;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	transition: background-color 300ms;
+}
+
+.navbar .icon,
+.navbar .auth {
+	padding: 0.5rem 0.5rem;
+}
+
+.navbar .main .current {
+	border-bottom: 1px solid #08d9d655;	
+}
+
+
+.navbar .icon span:hover,
+.navbar .hamb:hover,
+.navbar .main div:hover,
+.navbar .auth span:hover {
+	color: #eaeaea;
+	cursor: pointer;
+}
+
+.navbar .main div:hover {
+	border-bottom-color: #eaeaea;
+}	
+
+.navbar .auth span:hover {
+	background-color: #ff2e63;
+}
+
+@media all and (max-width: 880px) {
+	.header {
+	}
+
+	.empty-box {
+		margin: 3rem;
+	}
+
+	.navbar {
+		width: 80%;
+		margin: 0 auto;
+		padding: 2.5rem 0;		
+		flex-direction: row;
+	}
+
+	.navbar .icon,
+	.navbar .hamb {
+		display: initial;
+		padding: 0 1rem;
+	}
+
+	.navbar .main,
+	.navbar .auth {
+		display: none;
+	}
+
+}
