@@ -10,7 +10,8 @@ function Footer() {
 					<span>FB</span>
 					<span>IG</span> 
 					<span>TW</span> 
-					<span>WS</span>				</div>
+					<span>WS</span>
+        </div>
 				<div>
 					All Rights Are Reserved ®
 				</div>

@@ -15,12 +15,3 @@ body {
 		-5px -5px 5px 5px #222831;
 }
 
-@font-face {
-  font-family: Roboto-Regular;
-  src: url(./Roboto/Roboto-Regular.ttf);
-}
-
-@font-face {
-  font-family: Pacifico-Regular;
-  src: url(./Pacifico/Pacifico-Regular.ttf);
-}

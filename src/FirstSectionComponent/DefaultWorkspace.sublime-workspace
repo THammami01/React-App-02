@@ -1,0 +1,313 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"sp",
+				"space-around\tjustify-content"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"fle",
+				"flex-direction\tproperty"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"border-bott",
+				"border-bottom-color\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"i",
+				"install"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "FirstSection.js",
+			"settings":
+			{
+				"buffer_size": 342,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/anis/Desktop/Me/React/my-react-app",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src/FirstSectionComponent",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src/FooterComponent",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src/NavComponent"
+	],
+	"file_history":
+	[
+		"/C/Users/anis/Desktop/Me/React/my-react-app/node_modules/detect-port-alt/.vscode/settings.json",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src/FirstSectionComponent/FirstSection.js",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src/index.js",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src/FirstSectionComponent/FirstSection.css",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src/FooterComponent/Footer.js",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src/App.js",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/README.md",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src/NavComponent/Nav.css",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src/NavComponent/Nav.js",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/public/index.html",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/src/styles.css",
+		"/C/Users/anis/Desktop/Me/React/my-react-app/public/fonts.css",
+		"/C/Users/anis/Desktop/Me/React/Notes.md",
+		"/C/Users/anis/Desktop/React/my-react-app/package.json",
+		"/C/Users/anis/Desktop/React/Notes.md",
+		"/C/Users/anis/Desktop/React/my-react-app/src/FooterComponent/Footer.css",
+		"/C/Users/anis/Desktop/React/my-react-app/src/NavComponent/Nav.css",
+		"/C/Users/anis/Desktop/React/my-react-app/src/NavComponent/Nav.js",
+		"/C/Users/anis/Desktop/React/my-react-app/src/styles.css",
+		"/C/Users/anis/Desktop/React/my-react-app/src/FooterComponent/Footer.js",
+		"/C/Users/anis/Desktop/React/my-react-app/src/App.js",
+		"/C/Users/anis/Desktop/React/my-react-app/src/FirstSectionComponent/FirstSection.js",
+		"/C/Users/anis/Desktop/React/my-react-app/src/FirstSectionComponent/FirstSection.css",
+		"/C/Users/anis/Desktop/React/my-react-app/src/Section1Component/FirstSection.css",
+		"/C/Users/anis/Desktop/React/my-react-app/src/Section1Component/FirstSection.js",
+		"/C/Users/anis/Desktop/React/my-react-app/src/index.js",
+		"/C/Users/anis/Desktop/React/my-react-app/src/Nav.css",
+		"/C/Users/anis/Desktop/React/my-react-app/src/Nav.js",
+		"/C/Users/anis/Desktop/React/others/Branchs/React-App-master/src/FirstNav.css",
+		"/C/Users/anis/Desktop/React/others/Branchs/Typing-App-master/script.js",
+		"/C/Users/anis/Desktop/React/my-react-app/public/index.html",
+		"/C/Users/anis/Desktop/React/my-react-app/public/manifest.json",
+		"/C/Users/anis/Desktop/React/my-react-app/README.md",
+		"/C/Users/anis/Desktop/Revision/AP 2.md"
+	],
+	"find":
+	{
+		"height": 56.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\t",
+			"==",
+			"props.",
+			"Tutorials",
+			"division_entier",
+			"ProcTabA",
+			"a",
+			"n",
+			"diviser",
+			"i",
+			"n",
+			"i",
+			"p",
+			"i"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\anis\\Desktop\\Me\\React\\my-react-app"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "FirstSection.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"setting",
+				"node_modules\\detect-port-alt\\.vscode\\settings.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 345.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 742.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

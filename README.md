@@ -1,68 +1,115 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ReactJS Notes
 
-## Available Scripts
+## Softwares Installation n Environment SetUp
 
-In the project directory, you can run:
+- Sublime (add path to env vars and install ayu package)
+- Chrome (add React Developer Tools extension)
+- Git (set nano as the default editor)
+- NodeJS
+- Python (not the amd version)
 
-### `npm start`
+## Create New Project
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npx create-react-app project_name
+cd project_name
+npm start
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Clone Startup Project
 
-### `npm test`
+```bash
+git clone branch_url
+cd folder_name
+npm install
+npm start
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Include Public Files with "%PUBLIC_URL%/
 
-### `npm run build`
+```html
+<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup Git
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+git config --global user.name "Tarek Hammami"
+git config --global user.email "thammami.me@gmail.com"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Pushing Existing Repo to GitHub
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+git init
+git add .
+git status
+git commit -m "First Commit"
+git log
+git remote add origin full_url.git
+git push -u origin master
+// github will popup for login in the first time
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deploy to GitHub Webpages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm install gh-pages
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Add this property to package.json:
+"homepage": "https://username.github.io/repo"
 
-## Learn More
+And, in scripts property, add:
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git commit --ammend
+git push -u origin master
+npm run deploy
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Using react-router-dom
 
-### Code Splitting
+```bash
+npm i react-router-dom
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```js
+import React from 'react'
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Link
+} from 'react-router-dom'
 
-### Analyzing the Bundle Size
+<Router>
+  <Link to="">Home</Link>
+  <Link to="/about">About</Link>
+  <Switch>
+    <Route path="/" component={Home} />
+    <Route path="/about" component={About} />
+  </Switch>
+</Router>
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Examples:
 
-### Making a Progressive Web App
+https://reactrouter.com/web/guides/quick-start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Remove hyperlink css:
 
-### Advanced Configuration
+```css
+selector a {
+	color: inherit;
+	text-decoration: none;	
+}
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Git Push Again
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```bash
+git commit --amend --no-edit
+git push --force origin master
+```
